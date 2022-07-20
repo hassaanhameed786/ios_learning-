@@ -8,13 +8,14 @@
 import SwiftUI
 // content view protocol descibe the layout, and views content
 
+import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         LandmarkList()
     }
 }
-// previews the view
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

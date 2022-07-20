@@ -2,9 +2,8 @@
 //  ContentView.swift
 //  firstapp
 //
-//  Created by Hassaan Hameed on 19/07/2022.
+//  Created by Usman Ahmad on 18/07/2022.
 //
-
 
 import SwiftUI
 
@@ -26,9 +25,9 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
-                    LandmarkList()
-                        .previewDevice(PreviewDevice(rawValue: deviceName))
-                        .previewDisplayName(deviceName)
-                }
-            }
+            LandmarkList()
+                .previewDevice(PreviewDevice(rawValue: deviceName))
+                .previewDisplayName(deviceName)
         }
+    }
+}
