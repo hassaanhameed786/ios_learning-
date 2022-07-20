@@ -2,7 +2,7 @@
 //  LandmarkDetail.swift
 //  firstapp
 //
-//  Created by Usman Ahmad on 20/07/2022.
+//  Created by Hassaan Hameed on 20/07/2022.
 //
 
 import SwiftUI
