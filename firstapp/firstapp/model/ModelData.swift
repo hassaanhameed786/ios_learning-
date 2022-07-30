@@ -11,6 +11,12 @@
 
 // array for the json data
 import Foundation
+import Combine
+//  observable object, and updates any views that need refreshing when the data changes.
+// Move the landmarks array into the model.
+final class ModelData: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 var landmarks: [Landmark] = load("landmarkData.json")
 
